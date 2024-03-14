@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+
+
+
+            --tbhead: #615550;
+
+            --bg0: #f5f0f0;
+            --fg0: #2d2a1f;
+            --bg1: #dfd4b9;
+            --bg2: #f1ecda;
+
+            font-family: 'Noto Sans Mono', 'Inconsolata', 'Courier New', monospace;
+            text-align: center;
+            background: var(--bg0);
+            color: var(--fg0);
+            margin: 0;
+        }
+
+        h1 {
+            margin: auto;
+            width: 750px;
+            text-align: center;
+            font-family: 'Noto Sans Mono';
+            font-weight: bold;
+
+            font-size: 30px;
+            line-height: 90px;
+            color: rgb(112, 41, 99);
+        }
+
+        h3 {
+            margin: auto;
+            width: 750px;
+            text-align: justify;
+            font-family: 'Noto Sans Mono';
+            font-weight: regular;
+            font: size 12px;
+            line-height: 4;
+            color: rgb(61, 61, 60);
+        }
+
+        h2 {
+            margin: auto;
+            width: 750px;
+            text-align: justify;
+            font-family: 'Noto Sans Mono';
+            font-weight: bold;
+            line-height: 20px;
+            color: rgb(61, 61, 60);
+        }
+
+        h4 {
+            margin: auto;
+            text-align: justify;
+            width: 750px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        p {
+            margin: auto;
+            width: 750px;
+            text-align: justify;
+            text-align-last: left;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font: size 15px;
+        }
+
+        li {
+            margin: auto;
+            width: 750px;
+            text-align: justify;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 750px;
+        }
+
+        hr {
+            margin-top: 30px;
+            /* Add 30px of space above the horizontal line */
+        }
+
+        #container {
+            font-family: 'Noto Sans Mono';
+            font-weight: bold;
+            text-align: center;
+            padding: 0 40px;
+            max-width: 1900px;
+            margin: 0 auto;
+            margin-top: 20px;
+
+            font-size: 30px;
+            line-height: 90px;
+            color: rgb(112, 41, 99);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>
+            <h1>Critique of Data Visualisations<br></h1>
+        </h1>
+        <h2>Assignment 2 | Submitted by Nirubhama Venkatachalam</h2>
+        <hr>
+    </div>
+    <!-------------------------------------------------------------->
+    <h3>Example 1</h3>
+    <p>
+        This is a visualization that reflects the distibution of dietary preferences across India. The visualisation
+        uses concentric charts within the state lines to represent data. While the map with a pie chart is a regularly
+        used way to visualise data, using concentric circles map might not be the best way to represent data that are
+        typically not considered to be a subsect of the larger dataset.
+    </p><br>
+    <p><a
+            href="https://img.huffingtonpost.com/asset/5c355fa91f0000cc082801fa.jpeg?ops=scalefit_720_noupscale&format=webp">Source:
+            Huffpost India</a></p>
+    <img src="https://img.huffingtonpost.com/asset/5c355fa91f0000cc082801fa.jpeg?ops=scalefit_720_noupscale&format=webp"
+        alt=""><br>
+
+    <p>
+        Analysing some issues within this visualisation:
+    </p><br>
+
+
+    <h4>Idiom:</h4>
+    <ol>
+        <li>
+            The visualisation use a <b>concentric circle map</b>, while this representation suggests the idea that
+            vegetarians
+            are part of non-vegetarians.
+            While this is technichally a true statement, it is not a common interpretation on the vegetarian population
+            who are typically considered a seperate categorization.
+            The data represented is the percentage of Vegetarian and non-vegetarian population in each state, which does
+            not translate well to this data type, hence we see most states need the percentages indicated via arrows
+            outside the state.
+        </li><br>
+
+        <li>
+            The colours chosen also make an unintentional statement, as green and red suggests one category is more
+            positive, and the other is negative. The visualisation needs to state in legend that it represents
+            percentages, rather than it being obvious when analysing the visuals.
+        </li>
+    </ol>
+
+    <h4>Improvement:</h4>
+    <ol>
+        <li>
+            The data could be represented as a chloropleth with interactive elements that represent the percentage
+            distribution, or by using pie chart instead on the concentric circle map.
+        </li><br>
+        <li>
+            The colours chosen might be more neutral colours, that do not associate values to the data.
+        </li><br>
+        <li>
+            Represent the state names by their state's name, rather than the state abbreviation, so people not familiar
+            with Indian state names are able to interpret the data.
+        </li><br>
+        <li>
+            Title does not convey enough information, could use a sub-heading to make it clearer before reading the
+            legend.
+        </li>
+    </ol>
+
+    <!-------------------------------------------------------------->
+
+    <h3>Example 2</h3>
+    <p>
+        This is a visualisation that represents the percentage of world debt of different countries. The infographic,
+        looks at two major measures: (1) Share of global debt as a percentage, and (2) Debt-to-GDP.
+        The concept of what the debt is compared against is unclear. The placement of the countries within this
+        representation itself is very confusing, and not intuitive, as it is impossible to find countries easily, or
+        understand the intention of the placement.</p><br>
+
+    <p><a href="https://www.weforum.org/agenda/2018/05/63-trillion-of-world-debt-in-one-visualization/">Source:
+            World Economic Forum</a></p>
+
+    <img src="https://assets.weforum.org/editor/-zBxxcVbh4FCusarNOhN5Yo1xUigETFvXLz-BkzRBPU.png" alt="">
+
+
+    <p>
+        However, it still has some shortcomings in idiom and data.
+    </p><br>
+
+    <h4>Idiom:</h4>
+    <ol>
+        <li>
+            The visualization uses <b>hexagonal binning plot within a circular boundary</b> to represent the data, but
+            it is unclear what the area of the hexagons represent and is not explained anywhere properly.
+        </li><br>
+        <li>
+            The visualization also uses a chloropleth to indicate percentage values of debt, but given that the
+            countries are not positioned in any specific way, it is hard to compare different countries by any metrics.
+        </li><br>
+        <li>The colours used are more useful for heatmaps, a graduated/gradient colour scheme might give a better idea
+            at first glance.</li>
+    </ol>
+
+
+    <h4>Improvement:</h4>
+    <ol>
+        <li>
+            If this kind of data representation is used, the data could organised from most to least dept as percentage
+            of GDP.
+        </li><br>
+        <li>
+            This data could be represented on a world map so it is easier to identify and compare countries debts. This
+            would also add an additional element of information to the data visualisation.
+        </li><br>
+        <li>
+            Could benefit from interactivity, to offer more context for the data, and compare data points with ease.
+        </li><br>
+    </ol>
+
+
+
+</body>
+
+</html>
